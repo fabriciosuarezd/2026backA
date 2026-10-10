@@ -3,6 +3,7 @@ const getTareas = (req,res) => {
 }
 
 const createTareas = (req,res) => {
+    
     res.status(201).json({mesg: "createTareas"})
 }
 const updateTarea = (req,res) => {
