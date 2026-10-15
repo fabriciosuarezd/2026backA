@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const tareasSchema = mongoose.Schema({
     descripcion: {
         type: String,
-        required: [true, 'POr favor teclea una descripcion']
+        required: [true, 'Por favor teclea una descripcion']
     }
 },{
     timestamps: true
