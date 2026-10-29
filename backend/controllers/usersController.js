@@ -65,7 +65,7 @@ const loginUser = asyncHandler(async(req, res) => {
 })
 
 const datosUser = asyncHandler(async(req, res) => {
-    res.status(200).json({message: "Datos"})
+    res.status(200).json(req.user)
 })
 
 const generarToken = (id_usuario) => {
